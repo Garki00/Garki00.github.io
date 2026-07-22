@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章目录 · Garki Page</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="blur-background"></div>
+        <div class="bubbles-container" id="bubbles"></div>
+    </div>
+
+    <div class="catalog-card">
+        <header class="catalog-header">
+            <a href="index.html" class="home-link" title="返回主页">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <h1 class="catalog-title">文章目录</h1>
+            <p class="catalog-subtitle">选一篇看看吧</p>
+        </header>
+
+        <div class="article-list" id="articleList">
+            <p class="state-msg">加载中...</p>
+        </div>
+
+        <nav class="pagination" id="pagination" aria-label="分页导航"></nav>
+    </div>
+
+    <script src="js/catalog.js"></script>
+</body>
+</html>

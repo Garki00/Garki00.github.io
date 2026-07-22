@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章阅览 · Garki Page</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-container">
+        <div class="blur-background"></div>
+        <div class="bubbles-container" id="bubbles"></div>
+    </div>
+
+    <div class="article-card">
+        <a href="catalog.html" class="back-link">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>返回目录</span>
+        </a>
+
+        <header class="article-header">
+            <h1 class="article-title" id="articleTitle">加载中...</h1>
+            <div class="article-meta" id="articleMeta"></div>
+        </header>
+
+        <article class="article-content" id="articleContent">
+            <p class="state-msg">正在读取文章内容...</p>
+        </article>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="js/article.js"></script>
+</body>
+</html>

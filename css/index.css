@@ -16,7 +16,7 @@ body {
     background: linear-gradient(135deg, #f5f9f5 0%, #e8f4e8 100%);
 }
 
-/* 背景容器 */
+
 .background-container {
     position: fixed;
     top: 0;
@@ -27,7 +27,7 @@ body {
     overflow: hidden;
 }
 
-/* 模糊背景 */
+
 .blur-background {
     position: absolute;
     top: 0;
@@ -38,10 +38,10 @@ body {
     background-size: cover;
     background-position: center;
     filter: blur(10px);
-    transform: scale(1.1); /* 防止模糊边缘露出 */
+    transform: scale(1.1); 
 }
 
-/* 小球容器 */
+
 .bubbles-container {
     position: absolute;
     top: 0;
@@ -51,7 +51,7 @@ body {
     pointer-events: none;
 }
 
-/* 单个小球 */
+
 .bubble {
     position: absolute;
     border-radius: 50%;
@@ -119,7 +119,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* 联系方式 */
+
 .contact-section {
     background-color: rgba(200, 230, 201, 0.4);
     border-radius: 15px;
@@ -199,13 +199,15 @@ body {
     margin-bottom: 0;
 }
 
-/* 社交链接 */
-.social-section {
+
+.mystic-section {
     display: flex;
     gap: 25px;
+    justify-content: center;
+    align-items: center; 
 }
 
-.social-link {
+.mystic-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,7 +222,7 @@ body {
     border: 1px solid rgba(165, 214, 167, 0.3);
 }
 
-.social-link:hover {
+.mystic-link:hover {
     background-color: #66bb6a;
     color: white;
     transform: translateY(-5px) scale(1.1);
@@ -288,7 +290,7 @@ body {
         margin-bottom: 8px;
     }
     
-    .social-section {
+    .mystic-section {
         gap: 15px;
     }
     
